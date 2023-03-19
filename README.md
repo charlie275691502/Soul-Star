@@ -1,5 +1,5 @@
 # Soul Star 
-Soul Star is a turn-based strategy game. Here's the game screen of it
+Soul Star is a turn-based strategy game. Here's the game screen of it. SoulLand is a complete game which you can play through from start to end. If you want to try it yourself, you can download the `Demo(Windows)` file in the folder
 
 ### GamePlay video
 https://www.youtube.com/watch?v=2wquylNdKik&ab_channel=%E5%90%B3%E5%AE%B6%E5%92%8C
