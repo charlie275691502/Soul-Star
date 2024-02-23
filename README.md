@@ -19,13 +19,8 @@ https://www.youtube.com/watch?v=2wquylNdKik&ab_channel=%E5%90%B3%E5%AE%B6%E5%92%
 https://drive.google.com/file/d/0B3JoldWcYXRkTkIxTE42OUt2UjQ/view?usp=share_link&resourcekey=0-bRGXBZ1SajP_ueuXEocjIQ
 
 # Credits
-## Project Manager
-paul yang, charlie wu
-## Programer
-charlie wu
-## AI Designer
-prefab lin, charlie wu
-## Cutscene
-sleepingfish, weichipedia
-## Art
-慕雨妡, weichipedia
+**Project Manager:** Paul Yang, Chia-Ho Wu                       
+**Programer:** Chia-Ho Wu                       
+**AI Designer**: Prefab Lin, Chia-Ho Wu                       
+**Cutscene**: Sleepingfish, Weichipedia                       
+**Artist**: 慕雨妡, Weichipedia                       
