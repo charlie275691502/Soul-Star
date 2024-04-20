@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - TextBox
+  - AutoSkipLog
+  - TextBoxBG
+  - AI
+  - Skill
+  - Character
+  - Detail_box
+  - Data
+  - Undefined
+  - Attack_view
+  - Equips
+  - Tactic_square
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: background_bar
+    uniqueID: 3200065789
+    locked: 0
+  - name: background
+    uniqueID: 2822703187
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: round_density
+    uniqueID: 600712725
+    locked: 0
+  - name: red_blocks
+    uniqueID: 3564505335
+    locked: 0
+  - name: character_on_board
+    uniqueID: 3920266639
+    locked: 0
+  - name: character_head
+    uniqueID: 2817041583
+    locked: 0
+  - name: slash
+    uniqueID: 3616818451
+    locked: 0
+  - name: damage
+    uniqueID: 3370991855
+    locked: 0
+  - name: start_fight
+    uniqueID: 3206828817
+    locked: 0
+  - name: tactics_background
+    uniqueID: 3583197439
+    locked: 0
+  - name: shines
+    uniqueID: 153492101
+    locked: 0
+  - name: skill_blocks_on_tactic
+    uniqueID: 2626282471
+    locked: 0
+  - name: skill_blocks_pointer_on_tactic
+    uniqueID: 887701917
+    locked: 0
+  - name: tactic_head
+    uniqueID: 2601716227
+    locked: 0
+  - name: skill_box_background
+    uniqueID: 2418326911
+    locked: 0
+  - name: skill_box_background2
+    uniqueID: 3045163809
+    locked: 0
+  - name: switch_button
+    uniqueID: 3173713071
+    locked: 0
+  - name: skill_blocks_on_canvas
+    uniqueID: 2649009703
+    locked: 0
+  - name: skill_blocks_pointer_on_canvas
+    uniqueID: 118224743
+    locked: 0
+  - name: detail_box_background
+    uniqueID: 1357052255
+    locked: 0
+  - name: detail_box_character
+    uniqueID: 2838410233
+    locked: 0
+  - name: detail_box_character_name
+    uniqueID: 322832943
+    locked: 0
+  - name: words
+    uniqueID: 196007697
+    locked: 0
+  - name: gear
+    uniqueID: 2558427141
+    locked: 0
+  - name: profile
+    uniqueID: 1805627137
+    locked: 0
+  - name: black
+    uniqueID: 2383074339
+    locked: 0
+  - name: jump_out_frame
+    uniqueID: 3108738645
+    locked: 0
+  - name: jump_out_button
+    uniqueID: 927889745
+    locked: 0
+  - name: jump_out_box
+    uniqueID: 3613197317
+    locked: 0
+  - name: jump_out_text
+    uniqueID: 1773869773
+    locked: 0
+  - name: jump_out_text_button
+    uniqueID: 657225815
+    locked: 0
+  - name: victory_defeat
+    uniqueID: 4249814665
+    locked: 0
+  - name: outside_boundary
+    uniqueID: 3530391999
+    locked: 0
+  - name: dialog_frame
+    uniqueID: 3773887341
+    locked: 0
+  - name: dialog_button
+    uniqueID: 3326189635
+    locked: 0
+  - name: dialog_text
+    uniqueID: 1659987055
+    locked: 0
+  - name: toppest-1
+    uniqueID: 1344600875
+    locked: 0
+  - name: toppest-2
+    uniqueID: 4279745501
+    locked: 0
+  - name: toppest-3
+    uniqueID: 894989779
+    locked: 0
+  - name: story_character
+    uniqueID: 3255806419
+    locked: 0
+  - name: highlight_character
+    uniqueID: 4289084867
+    locked: 0
