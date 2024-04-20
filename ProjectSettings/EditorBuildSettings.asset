@@ -86,3 +86,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scene/Story/1_11_start.unity
     guid: 888bf47c67d794be288794e17f79e78c
+  m_configObjects: {}
