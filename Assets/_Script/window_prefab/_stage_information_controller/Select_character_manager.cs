@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class Select_character_manager : MonoBehaviour {
@@ -82,11 +83,16 @@ public class Select_character_manager : MonoBehaviour {
 	}
 
 	public int[] list(){
-		int[] ret = new int[selected_length];
+		int auto_fill_amount = stage_window_controller.stage_imformation_manager.dataController.stageInformation.team_limit_number - selecteds.Count(isSelect => isSelect);
+		int[] ret = new int[stage_window_controller.stage_imformation_manager.dataController.stageInformation.team_limit_number];
 		int ink = 0;
 		for(int i=0;i<characters.Length;i++){
 			if (selecteds [i])
 				ret [ink++] = characters [i].GetComponent<Select_character_manager_click_character> ().order;
+			else if (auto_fill_amount > 0){
+				auto_fill_amount -= 1;
+				ret [ink++] = characters [i].GetComponent<Select_character_manager_click_character> ().order;
+			}
 		}
 		return ret;
 	}
