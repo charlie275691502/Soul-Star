@@ -1,14 +1,14 @@
 
 1-1
-城區閒逛1
-無
+Wandering around town 1
+None
 1
-畢查爾
-在晴準備好兩周的任務前，剛來到諾爾的畢查爾決定到處逛逛並補充彈藥。
+Bichaer
+Before Qing is ready for the two-week mission, Bichaer decides to wander around and replenish ammunition.
 @
 n n
-敵全滅
-任一主角死亡
+DefeatAllEnemy
+AnyAllyDied
 5
 1 1 -2
 1 2 -2
@@ -21,15 +21,15 @@ n n
 901 1
 #
 1-2
-香菇平原
-火
+Mushroom Plain
+Fire
 2
-畢查爾
-暫時逗留在諾爾地區的畢查爾，協助身為東城區領主的晴清除領地內的魔獸。
+Bichear
+Bichaer, who is temporarily staying in the Norr region, assists Qing, the lord of the East City District, in clearing out the monsters in her territory.
 @
 n n
-敵全滅
-任一主角死亡
+DefeatAllEnemy
+AnyAllyDied
 7
 1 1 -2
 1 2 -2
@@ -42,14 +42,14 @@ n n
 0
 #
 1-3
-香菇王
-火
+Mushroom King
+Fire
 2
-畢查爾
+Bichear
 @
 y n
-敵全滅
-任一主角死亡
+DefeatAllEnemy
+AnyAllyDied
 11
 0 2 -2
 1 1 -2
@@ -68,14 +68,14 @@ y n
 801 2
 #
 1-4
-撤離
-無
+Retreat
+None
 3
-畢查爾
+Bichear
 @
 y y
-生存10回合
-任一主角死亡
+SurviveFor10Turns
+AnyAllyDied
 8
 0 3 -2
 1 2 -2
@@ -89,14 +89,14 @@ y y
 0
 #
 1-5
-刺
-火
+Stick
+Fire
 3
-畢查爾 晴
+Bichear Qing
 @
 y y
-敵全滅
-任一主角死亡
+DefeatAllEnemy
+AnyAllyDied
 17
 0 0 -2
 0 4 -2
@@ -120,14 +120,14 @@ y y
 2 1
 #
 1-6
-回歸
-無
+Return
+None
 1
-畢查爾
+Bichear
 @
 y y
-敵全滅
-任一主角死亡
+DefeatAllEnemy
+AnyAllyDied
 14
 2 2 -2
 0 0 -1
@@ -147,16 +147,15 @@ y y
 0
 #
 1-7
-城區閒逛2
-地
+Wandering around town 2
+Earth
 1
-畢查爾
-在東城區路上閒逛的畢查爾無意間踢到了擺在地上的水桶。
-「啊，還好沒有噴到別人」畢查爾心裡想著...
+Bichaer
+Bichaer was casually strolling along the streets of the East City District when he accidentally kicked a bucket lying on the ground. "Ah, thankfully it didn't splash onto anyone," he thought to himself...
 @
 n n
-敵全滅
-任一主角死亡
+DefeatAllEnemy
+AnyAllyDied
 17
 0 1 -2
 0 2 -2
@@ -179,14 +178,14 @@ n n
 0
 #
 1-8
-城區閒逛3
-火
+Wandering around town 3
+Fire
 2
-畢查爾
+Bichear
 @
 y n
-敵全滅
-任一主角死亡
+DefeatAllEnemy
+AnyAllyDied
 16
 2 1 -2
 2 2 -2
@@ -208,14 +207,14 @@ y n
 0
 #
 1-9
-音菲瑟波
-無
+Invisible
+None
 2
-畢查爾
+Bichear
 @
 y y
-敵全滅
-任一主角死亡
+DefeatAllEnemy
+AnyAllyDied
 15
 1 1 -2
 1 3 -2
@@ -237,14 +236,14 @@ y y
 902 1
 #
 1-10
-城區閒逛4
-無
+Wandering around town 4
+None
 2
-畢查爾
+Bichear
 @
 y y
-敵全滅
-任一主角死亡
+DefeatAllEnemy
+AnyAllyDied
 5
 0 2 -2
 1 2 -2
@@ -256,14 +255,14 @@ y y
 501 1
 #
 1-11
-易氏老者
-無
+Old man from Yi's family
+None
 1
-畢查爾
+Bichear
 @
 y n
-敵全滅
-任一主角死亡
+DefeatAllEnemy
+AnyAllyDied
 14
 2 2 -2
 0 0 -1

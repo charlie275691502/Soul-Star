@@ -102,7 +102,7 @@ MonoBehaviour:
   equip:
     index: 0
     order: 1
-    Name: "\u5C71\u8C6C\u738B\u7684\u523A"
+    Name: Ping Stick
     number: 0
     equip_type: 0
     desc: Physical damage + 2

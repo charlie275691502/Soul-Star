@@ -4,16 +4,16 @@ using UnityEngine;
 using System.Reflection;
 
 public enum Equip_type{
-	長劍刃,
-	短劍刃,
-	彈匣,
-	水晶,
-	晶核,
-	外殼,
-	握柄,
-	戒指,
-	藥水,
-	戰利品
+	LongSword,
+	ShortSword,
+	Clip,
+	Crystal,
+	Core,
+	Shell,
+	Grip,
+	Rings,
+	Potion,
+	Loots
 }
 
 public enum Character_location{

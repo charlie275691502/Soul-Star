@@ -105,7 +105,7 @@ MonoBehaviour:
     Name: Yi's Badget
     number: 0
     equip_type: 0
-    desc: "\u8001\u4EBA\u7684\u6524\u8CA9\u4E0A\u6389\u4E0B\u7684\u5FBD\u7AE0\uFF0C\u4F3C\u4E4E\u6709\u8457\u4E0D\u53EF\u544A\u4EBA\u7684\u7955\u5BC6\u3002\u6A5F\u68B0\u9632\u79A6\uFF0B\uFF11\u3002"
+    desc: Physical defense + 1
     hp: 0
     mp: 0
     ep: 0

@@ -5,12 +5,12 @@ using UnityEngine.SceneManagement;
 using System.IO;
 
 public enum Victory_condition{
-	敵全滅,
-	生存10回合
+	DefeatAllEnemy,
+	SurviveFor10Turns
 }
 
 public enum Defeat_condition{
-	任一主角死亡
+	AnyAllyDied
 }
 
 [System.Serializable]
@@ -510,7 +510,7 @@ public class GameController : MonoBehaviour {
 			if (acts.someone_die) {
 				yield return new WaitForSeconds (acts.die_delay);
 				acts.someone_die = false;
-				queue [i].gameObject.SetActive (false);
+				queue [i]?.gameObject.SetActive (false);
 				if(acts.game_over)yield return new WaitForSeconds (99999);
 			}
 			Destroy (skill);
@@ -727,7 +727,7 @@ public class GameController : MonoBehaviour {
 			acts.round_number_1.GetComponent<SpriteRenderer>().sprite = acts.round_font [acts.round % 10];
 		}
 
-		if (acts.round >= 11 && dataController.stageInformation.victory_condition == Victory_condition.生存10回合) {
+		if (acts.round >= 11 && dataController.stageInformation.victory_condition == Victory_condition.SurviveFor10Turns) {
 			StartCoroutine(victory_ani ());
 		}
 		if(acts.round == 1)trigger_all_passive_skill (Passive_skill_launch_time.遊戲開始);

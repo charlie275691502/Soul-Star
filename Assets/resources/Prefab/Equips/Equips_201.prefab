@@ -105,7 +105,7 @@ MonoBehaviour:
     Name: Wooden Clip
     number: 0
     equip_type: 0
-    desc: "\u5F88\u666E\u901A\u7684\u5F48\u5323\u3002\u6A5F\u68B0\u653B\u64CA\u529B\uFF0B\uFF11\u3002"
+    desc: Physical damage + 1
     hp: 0
     mp: 0
     ep: 0

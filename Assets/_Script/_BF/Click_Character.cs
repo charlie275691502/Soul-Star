@@ -255,7 +255,7 @@ public class Character{
 		MonoBehaviour.Instantiate (gameController.acts.die_light, gmo.transform.position, Quaternion.identity);
 		GameObject.Destroy (gmo);
 
-		if (character_camp == Character_camp.enemys && all_died (gameController.enemys) && ( gameController.dataController.stageInformation.victory_condition == Victory_condition.敵全滅 || gameController.dataController.stageInformation.victory_condition == Victory_condition.生存10回合)) {
+		if (character_camp == Character_camp.enemys && all_died (gameController.enemys) && ( gameController.dataController.stageInformation.victory_condition == Victory_condition.DefeatAllEnemy || gameController.dataController.stageInformation.victory_condition == Victory_condition.SurviveFor10Turns)) {
 			if (gameController.has_second_enemy) {
 				gameController.has_second_enemy = false;
 				gameController.acts.game_over = false;
@@ -266,7 +266,7 @@ public class Character{
 			}
 		}
 
-		if (character_camp == Character_camp.allies && any_main_character_died (gameController.allies) && gameController.dataController.stageInformation.defeat_condition == Defeat_condition.任一主角死亡) {
+		if (character_camp == Character_camp.allies && any_main_character_died (gameController.allies) && gameController.dataController.stageInformation.defeat_condition == Defeat_condition.AnyAllyDied) {
 				gameController.StartCoroutine(gameController.defeat_ani());
 		}
 	}
