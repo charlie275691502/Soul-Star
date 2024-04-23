@@ -5898,27 +5898,27 @@ MonoBehaviour:
   - gmo: {fileID: 1581254870959982, guid: 2ed242b78febd449b9a8354cefb20161, type: 3}
     position: {x: -23, y: 3.3}
     scale: {x: 1, y: 1}
-    text: "\u9078\u64C7\u7562\u67E5\u723E\u7684\u521D\u59CB\u4F4D\u7F6E"
+    text: Choose the initial location of Bichear
     next: 0
   - gmo: {fileID: 1581254870959982, guid: 9388b77134712427cbee36d0c535266b, type: 3}
     position: {x: -28.2, y: -2.2}
     scale: {x: 1, y: 1}
-    text: "\u9078\u64C7\u6674\u7684\u521D\u59CB\u4F4D\u7F6E"
+    text: Choose the initial location of Qing
     next: 0
   - gmo: {fileID: 1581254870959982, guid: 9388b77134712427cbee36d0c535266b, type: 3}
     position: {x: -28.2, y: -2.2}
     scale: {x: 1, y: 1}
-    text: "\u9EDE\u9078\u982D\u50CF\u6216\u884C\u52D5\u683C\u53EF\u4EE5\u5207\u63DB\u5230\u6674\u7684\u6280\u80FD\u6B04"
+    text: Click the avatar or actions queue to edit Qing's skillset
     next: 0
   - gmo: {fileID: 1581254870959982, guid: ecbcf271c7c5b42d29ffb31b0d0c0073, type: 3}
     position: {x: 27.8, y: 10}
     scale: {x: 0.7, y: 0.7}
-    text: "\u62D6\u66F3\u5FC5\u6BBA\u6280\u300C\u96F7\u64CA\u7A7F\u69CD\u300D\u5230\u6674\u7684\u884C\u52D5\u683C"
+    text: Drag the skill to the actions queue
     next: 0
   - gmo: {fileID: 1924768297971452, guid: ec488f66284ec46af9c750ad2114262f, type: 3}
     position: {x: 19.3, y: -13.44}
     scale: {x: 1, y: 1}
-    text: "\u96F7\u64CA\u7A7F\u69CD\u6D88\u8017\u5927\u91CFMP,EP\u4E14\u4F7F\u7528\u5169\u683C\u884C\u52D5\u683C"
+    text: The skill use a lot of EP / MP and it occupies two action
     next: 0
 --- !u!1 &1422958778
 GameObject:

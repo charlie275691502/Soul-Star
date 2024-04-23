@@ -28,7 +28,7 @@ public class Enemys_006 : MonoBehaviour {
 
 			//If(EP>=20) 或10<=EP<20有30%機率
 			if (enemy.ep >= 20 || (10 <= enemy.ep && enemy.ep < 20) && random (0.3f)) {
-				//在第1~4(若與最接近敵人距離>=4則在第3~4)個行動隨機一格擺上影穿(機率加權為1:3:3:3)
+				//在第1~4(若與最接近敵人距離>=4則在第3~4)個行動隨機一格擺上Shadow Attack(機率加權為1:3:3:3)
 				int random_position;
 				if (vec.z >= 4)
 					random_position = get_random_position (3, 4);
@@ -38,30 +38,30 @@ public class Enemys_006 : MonoBehaviour {
 					else
 						random_position = get_random_position (2, 4);
 				}
-				set_skill ("影穿", random_position);
+				set_skill ("Shadow Attack", random_position);
 
 				//方向向最接近敵人(不能是貼身的)距離較遠的方向，若兩個座標差相同則隨機選一個方向
 				aim_the_nearest_character (true); //不貼身
 				aI.priority_dir [random_position] = random_dir (face_dir ());
 
-				//若第一次決定的影穿不適合發動(第三格為障礙物 || 敵人貼身)，且AI不是站在藍色格上
+				//若第一次決定的Shadow Attack不適合發動(第三格為障礙物 || 敵人貼身)，且AI不是站在藍色格上
 				if ((click_skill.is_obstacle(enemy.loc + decode_dir(aI.priority_dir [random_position].dir[0]) * 3) || vec.z == 1) && find_map_color() != 'B') {
 					//清場
 					destroy_all_skill();
 
-					//在第1~2格隨機擇一放上前進
+					//在第1~2格隨機擇一放上Forward
 					random_position = get_random_position (1, 2);
-					set_skill ("前進", random_position);
+					set_skill ("Forward", random_position);
 
 					//方向(3:2:4:1/5:5:8:1/不討論/3:3:3:1)
 					if(find_map_color() == 'R')aI.priority_dir[random_position] = relative_random_dir(0, 3, 2, 4, 1);
 					if(find_map_color() == 'Y')aI.priority_dir[random_position] = relative_random_dir(0, 5, 5, 8, 1);
 					if(find_map_color() == 'G')aI.priority_dir[random_position] = relative_random_dir(0, 3, 3, 3, 1);
 
-					//然後(更新與最接近對手距離)，在第三或四個行動隨機擇一放上影穿
+					//然後(更新與最接近對手距離)，在第三或四個行動隨機擇一放上Shadow Attack
 					vec += decode_dir(aI.priority_dir[random_position].dir[0]);
 					random_position = get_random_position (3, 4);
-					set_skill ("前進", random_position);
+					set_skill ("Forward", random_position);
 
 					//方向向最接近敵人(不是貼身的)距離較遠的方向(第三格不能剛好撞牆)(若新的x.diff==y.diff要換方向試，不一樣就不用了)
 					aI.priority_dir [random_position] = random_dir (face_dir ());
@@ -69,11 +69,11 @@ public class Enemys_006 : MonoBehaviour {
 
 			}
 
-			//若版面上已經有影穿了，且還沒有前進
-			if (!has_skill("影穿") && has_skill("前進")) {
-				//則隨機在影穿後的某一格擺上前進
-				int random_position = get_random_position (find_order("影穿") + 2, 5);
-				set_skill ("前進", random_position);
+			//若版面上已經有Shadow Attack了，且還沒有Forward
+			if (!has_skill("Shadow Attack") && has_skill("Forward")) {
+				//則隨機在Shadow Attack後的某一格擺上Forward
+				int random_position = get_random_position (find_order("Shadow Attack") + 2, 5);
+				set_skill ("Forward", random_position);
 
 				//方向(1:1:1:1/3:2:7:1/3:8:2:1/5:2:5:3)
 				if(find_map_color() == 'R')aI.priority_dir[random_position] = relative_random_dir(0, 1, 1, 1, 1);
@@ -82,38 +82,38 @@ public class Enemys_006 : MonoBehaviour {
 				if(find_map_color() == 'G')aI.priority_dir[random_position] = relative_random_dir(0, 5, 2, 5, 3);
 			}
 
-			//若版面上有影穿
-			if (!has_skill("影穿")) {
-				//在影穿後面有40%機率使用感應(隨機選擇一有效格，沒有效格就算了)
+			//若版面上有Shadow Attack
+			if (!has_skill("Shadow Attack")) {
+				//在Shadow Attack後面有40%機率使用感應(隨機選擇一有效格，沒有效格就算了)
 				int random_position;
 				if (random (0.4f)) {
-					random_position = get_random_position (find_order("影穿") + 2, 5);
+					random_position = get_random_position (find_order("Shadow Attack") + 2, 5);
 					if (random_position != -1) {
-						set_skill ("危險感應", random_position);
+						set_skill ("Danger Sensor", random_position);
 						aI.priority_dir [random_position] = random_dir (0);
 					}
 				}
 
 				//隨機一格放上氣刃
 				random_position = get_random_position (0, 5);
-				set_skill ("氣刃", random_position);
+				set_skill ("Shock wave", random_position);
 
 				//方向向最接近敵人的方向，50%機率選擇反向(若敵人在直線上則障礙物較少的方向，不能有兩格被障礙物擋住)
 				aI.priority_dir [random_position] = random_dir (face_dir());
 				if(random(0.5f))for(int i=0;i<4;i++)aI.priority_dir [random_position].dir[0] = (aI.priority_dir [random_position].dir[0]+2)%4;
 
-				//剩下放挑斬
+				//剩下放Up Thrust
 				for (int i = 0; i < 5; i++) {
 					if (!can_use [i])continue;
-					set_skill ("挑斬", i);
-					//挑斬方向由座標差作調整，距離較遠的係數+3，較短的+1(如x.diff=3, y.diff=2，則方向為x:y=3+3:2+1=6:3)，50%打反方向 //this is broken
+					set_skill ("Up Thrust", i);
+					//Up Thrust方向由座標差作調整，距離較遠的係數+3，較短的+1(如x.diff=3, y.diff=2，則方向為x:y=3+3:2+1=6:3)，50%打反方向 //this is broken
 					aI.priority_dir [random_position] = random_dir (face_dir());
 				}
 
 			}
 
-			//若版面上沒有影穿
-			if (has_skill("影穿")) {
+			//若版面上沒有Shadow Attack
+			if (has_skill("Shadow Attack")) {
 				//先清版。
 				destroy_all_skill();
 
@@ -128,11 +128,11 @@ public class Enemys_006 : MonoBehaviour {
 
 					//方向為與最接近敵人之兩軸距離成反比(兩方向加權各+1)
 
-					//剩下的就隨機放上挑斬和前進
+					//剩下的就隨機放上Up Thrust和Forward
 
-					//前進方向(2:1:2:1/2:3:7:1/3:5:3:1/1:1:1:0)
+					//Forward方向(2:1:2:1/2:3:7:1/3:5:3:1/1:1:1:0)
 
-					//挑斬方向與兩軸成正比，距離較遠的係數+3，較短的+1
+					//Up Thrust方向與兩軸成正比，距離較遠的係數+3，較短的+1
 				}
 
 				//若(EP<10) 或10<=EP<20有70%機率
@@ -140,7 +140,7 @@ public class Enemys_006 : MonoBehaviour {
 
 					//與最接近敵人(x.diff+y.diff)/4機率(距離>=4機率就是100%了): 在第2~4格隨機一格放上感應，加權(7:2:1)
 
-					//在感應前隨機一格放上前進
+					//在感應前隨機一格放上Forward
 
 					//方向背向最接近敵人，與兩軸距離成反比，數字較大的加權+5，另一邊+2，若相同則1:1
 
@@ -148,14 +148,14 @@ public class Enemys_006 : MonoBehaviour {
 
 					//方向向最接近敵人的方向(若敵人在直線上則障礙物較少的方向，不能有兩格被障礙物擋住)
 
-					//剩下的格子放上挑斬
+					//剩下的格子放上Up Thrust
 
-					//挑斬方向與兩軸成正比，距離較遠的係數+3，較短的+1
+					//Up Thrust方向與兩軸成正比，距離較遠的係數+3，較短的+1
 				}
 
 				else {
 
-					//隨機一格填上前進
+					//隨機一格填上Forward
 
 					//方向(2:1:2:1/2:3:7:1/3:5:3:1/1:1:1:0)
 
@@ -163,9 +163,9 @@ public class Enemys_006 : MonoBehaviour {
 
 					//方向向最接近敵人的方向(若敵人在直線上則障礙物較少的方向，不能有兩格被障礙物擋住)
 
-					//隨機兩格放上挑斬
+					//隨機兩格放上Up Thrust
 
-					//挑斬方向與兩軸成正比，距離較遠的係數+3，較短的+1
+					//Up Thrust方向與兩軸成正比，距離較遠的係數+3，較短的+1
 				}
 				//end of 沒有人受到標記&&自己非感應狀態時
 
@@ -175,47 +175,47 @@ public class Enemys_006 : MonoBehaviour {
 					//若(EP>=20) && 最接近敵人HP<40
 					if (enemy.ep >= 20 && nearest_character.hp < 40) {
 
-						//在第1~4(若與最接近敵人距離>=4則在第3~4)個行動隨機一格擺上影穿(機率加權為1:3:3:3)
+						//在第1~4(若與最接近敵人距離>=4則在第3~4)個行動隨機一格擺上Shadow Attack(機率加權為1:3:3:3)
 
 						//方向向最接近敵人(不能是貼身的)距離較遠的方向，若兩個座標差相同則隨機選一個方向(第三格不能是障礙物)
 					}
 
-					//若第一次決定的影穿不適合發動(第三格為障礙物 || 敵人貼身)，且AI不是站在藍色格上
+					//若第一次決定的Shadow Attack不適合發動(第三格為障礙物 || 敵人貼身)，且AI不是站在藍色格上
 					if (true) {
 
-						////在第1~2格隨機擇一放上前進
+						////在第1~2格隨機擇一放上Forward
 
 						//方向(3:2:4:1/5:5:8:1/不討論/3:3:3:1)
 
-						//然後(更新與最接近對手距離)，在第三或四個行動隨機擇一放上影穿
+						//然後(更新與最接近對手距離)，在第三或四個行動隨機擇一放上Shadow Attack
 
 						//方向向最接近敵人(不是貼身的)距離較遠的方向(第三格不能剛好撞牆)(若新的x.diff==y.diff要換方向試，不一樣就不用了)
 					}
 
-					//若版面上有影穿
-					if (!has_skill("影穿")) {
+					//若版面上有Shadow Attack
+					if (!has_skill("Shadow Attack")) {
 
-						//在影穿後一格接一影子飛劍(方向記得轉)
+						//在Shadow Attack後一格接一影子飛劍(方向記得轉)
 
 						//隨機選一格氣刃
 
 						//方向向最接近敵人的方向(若敵人在直線上則障礙物較少的方向，不能有兩格被障礙物擋住)
 
-						//隨機選一格挑斬
+						//隨機選一格Up Thrust
 
-						//挑斬方向與兩軸成正比，距離較遠的係數+3，較短的+1
+						//Up Thrust方向與兩軸成正比，距離較遠的係數+3，較短的+1
 
-						//最後一格放前進
+						//最後一格放Forward
 
 						//方向(2:1:2:1/2:3:7:1/3:5:3:1/1:1:1:0)					
 					}
 
-					//若仍然沒有影穿
-					if (has_skill("影穿")) {
+					//若仍然沒有Shadow Attack
+					if (has_skill("Shadow Attack")) {
 						//清版
 						destroy_all_skill();
 
-						//第一格背向最接近敵人前進
+						//第一格背向最接近敵人Forward
 
 						//方向與座標差反比，較大數字加權+4，較小方向+2
 
@@ -227,9 +227,9 @@ public class Enemys_006 : MonoBehaviour {
 
 						//方向向最接近敵人的方向(若敵人在直線上則障礙物較少的方向，不能有兩格被障礙物擋住)
 
-						//隨機選一格挑斬
+						//隨機選一格Up Thrust
 
-						//挑斬方向與兩軸成正比，距離較遠的係數+3，較短的+1
+						//Up Thrust方向與兩軸成正比，距離較遠的係數+3，較短的+1
 					}
 					//end of 有敵人受到標記&&自己非感應狀態
 
@@ -241,19 +241,19 @@ public class Enemys_006 : MonoBehaviour {
 
 							//第一格使用潛行
 
-							//方向為與敵人拉開距離，比較兩方向前進距離較遠的優先(相同時距離近的座標優先)
+							//方向為與敵人拉開距離，比較兩方向Forward距離較遠的優先(相同時距離近的座標優先)
 
 							//更新與最接近敵人距離
 
 							//第二格使用感應
 
-							//隨機(1:1:1)在接下來三格放上前進、氣刃、挑斬
+							//隨機(1:1:1)在接下來三格放上Forward、氣刃、Up Thrust
 
 							//氣刃方向為向最接近敵人的方向(若敵人在直線上則障礙物較少的方向，不能有兩格被障礙物擋住)
 
-							//前進方向為(2:1:2:1/2:3:7:1/3:5:3:1/1:1:1:0)
+							//Forward方向為(2:1:2:1/2:3:7:1/3:5:3:1/1:1:1:0)
 
-							//挑斬方向為與兩軸成正比，距離較遠的係數+3，較短的+1
+							//Up Thrust方向為與兩軸成正比，距離較遠的係數+3，較短的+1
 
 						}
 
@@ -263,23 +263,23 @@ public class Enemys_006 : MonoBehaviour {
 
 							//若有座標距離差>=2，以潛行接近被標記對手(兩座標均>2時選擇較遠的)
 
-							//若沒有的話使用前進
+							//若沒有的話使用Forward
 
-							//方向向對手前進，兩方向隨機
+							//方向向對手Forward，兩方向隨機
 
 							//更新座標差
 
-							//使用影穿
+							//使用Shadow Attack
 
 							//方向向距離較遠的方向(如果第三格是障礙物就換方向，再不行的話將這個技能改成氣刃)
 
 							//氣刃方向為向最接近敵人的方向(若敵人在直線上則障礙物較少的方向，不能有兩格被障礙物擋住)
 
-							//第三格使用影子飛劍，方向向距離較遠方向，如果有使用影穿要反向
+							//第三格使用影子飛劍，方向向距離較遠方向，如果有使用Shadow Attack要反向
 
-							//最後兩格用挑斬
+							//最後兩格用Up Thrust
 
-							//挑斬方向為與兩軸成正比，距離較遠的係數+3，較短的+1，如果有使用影穿要反向
+							//Up Thrust方向為與兩軸成正比，距離較遠的係數+3，較短的+1，如果有使用Shadow Attack要反向
 						}
 
 						//剩下的自己感應狀態&&對方有人被標記的其他狀況
@@ -292,7 +292,7 @@ public class Enemys_006 : MonoBehaviour {
 
 							//更新座標差											
 
-							//在第二格前進
+							//在第二格Forward
 
 							//方向向最接近對手，與兩軸距離成正比，加權各+1
 
@@ -300,7 +300,7 @@ public class Enemys_006 : MonoBehaviour {
 
 							//方向向被標記的敵人，座標差較大的方向優先
 
-							//最後兩格使用挑斬，方向徹底隨機(不要打牆)
+							//最後兩格使用Up Thrust，方向徹底隨機(不要打牆)
 
 						}
 
@@ -318,11 +318,11 @@ public class Enemys_006 : MonoBehaviour {
 
 							//方向為向最接近敵人的方向(若敵人在直線上則障礙物較少的方向，不能有兩格被障礙物擋住)
 
-							//隨機選一格使用前進
+							//隨機選一格使用Forward
 
 							//方向為(2:1:2:1/2:3:7:1/3:5:3:1/1:1:1:0)
 
-							//剩下兩格使用挑斬
+							//剩下兩格使用Up Thrust
 
 							//方向為與兩軸成正比，距離較遠的係數+3，較短的+1
 						}
@@ -629,7 +629,7 @@ public class Enemys_006 : MonoBehaviour {
 
 	void default_skill(){
 		for (int i = 0; i < 5; i++) {
-			set_skill ("前進", i);
+			set_skill ("Forward", i);
 			aI.priority_dir [i] = random_dir (0);
 		}
 	}

@@ -795,7 +795,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 20
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &184982679
 Canvas:
   m_ObjectHideFlags: 0
@@ -5883,62 +5883,63 @@ MonoBehaviour:
   - gmo: {fileID: 1581254870959982, guid: 34f89fdf066fb4aa9b81255ec33cf127, type: 3}
     position: {x: -18.1, y: 8.5}
     scale: {x: 1, y: 1}
-    text: "\u9078\u64C7\u89D2\u8272\u521D\u59CB\u4F4D\u7F6E"
+    text: Choose the start location
     next: 0
   - gmo: {fileID: 1581254870959982, guid: 34f89fdf066fb4aa9b81255ec33cf127, type: 3}
     position: {x: 16.7, y: 13.7}
     scale: {x: 0.7, y: 0.7}
-    text: "\u9F20\u6A19\u9577\u99D0\u53EF\u4EE5\u986F\u793A\u8A73\u7D30\u8CC7\u6599"
+    text: Hover to see the details
     next: 0
   - gmo: {fileID: 1670112717216320, guid: 15be104b250e64da8888aed535e61399, type: 3}
     position: {x: 0, y: 0}
     scale: {x: 0, y: 0}
-    text: "\u62D6\u66F3\u6280\u80FD\u5230\u884C\u52D5\u683C"
+    text: Drag the skill to the actions queue
     next: 0
   - gmo: {fileID: 1581254870959982, guid: 34f89fdf066fb4aa9b81255ec33cf127, type: 3}
     position: {x: 13.7, y: -0.3}
     scale: {x: 0.7, y: 0.7}
-    text: "\u53F3\u9375\u53EF\u4EE5\u65CB\u8F49\u6280\u80FD\u65B9\u5411\uFF0C\u9078\u64C7\u5411\u4E0B\u79FB\u52D5"
+    text: Right click to rotate. Please rotate to "Down"
     next: 0
   - gmo: {fileID: 1581254870959982, guid: 441d7e4daab804956b74516abe3f39b1, type: 3}
     position: {x: 24.1, y: 13.7}
     scale: {x: 0.7, y: 0.7}
-    text: "\u62D6\u66F3\u653B\u64CA\u6280\u80FD\u5230\u884C\u52D5\u683C"
+    text: Drag the skill to the actions queue
     next: 0
   - gmo: {fileID: 1581254870959982, guid: 34f89fdf066fb4aa9b81255ec33cf127, type: 3}
     position: {x: 17.2, y: -0.3}
     scale: {x: 0.7, y: 0.7}
-    text: "\u53F3\u9375\u53EF\u4EE5\u9078\u65B9\u5411\uFF0C\u4E00\u6A23\u5C07\u65B9\u5411\u8A2D\u70BA\u4E0B"
+    text: Right click to rotate. Please rotate to "Down"
     next: 0
   - gmo: {fileID: 1581254870959982, guid: 8436d4fd84d0e4613bed10b12db3a2dc, type: 3}
     position: {x: 24.1, y: 9.9}
     scale: {x: 0.7, y: 0.7}
-    text: "\u62D6\u66F3\"\u91CD\u64CA\"\u5230\u884C\u52D5\u683C"
+    text: Drag the skill to the actions queue
     next: 0
   - gmo: {fileID: 1581254870959982, guid: 34f89fdf066fb4aa9b81255ec33cf127, type: 3}
     position: {x: 20.7, y: -0.3}
     scale: {x: 0.7, y: 0.7}
-    text: "\u65CB\u8F49\u91CD\u64CA\u65B9\u5411\uFF0C\u5411\u4E0B\u653B\u64CA"
+    text: Right click to rotate. Please rotate to "Down"
     next: 0
   - gmo: {fileID: 1581254870959982, guid: 34f89fdf066fb4aa9b81255ec33cf127, type: 3}
     position: {x: -8.5, y: -16.23}
     scale: {x: 1, y: 1}
-    text: "\u90E8\u5206\u6280\u80FD\u6703\u6D88\u8017\u80FD\u91CF"
+    text: Some skills consume EP
     next: 0
   - gmo: {fileID: 1581254870959982, guid: 34f89fdf066fb4aa9b81255ec33cf127, type: 3}
     position: {x: 18.3, y: -14.4}
     scale: {x: 1, y: 1}
-    text: "\u6E96\u5099\u7D50\u675F\uFF0C\u6309\u4E0B\u958B\u59CB"
+    text: Press Start
     next: 0
   - gmo: {fileID: 1581254870959982, guid: 86f8cbab7848d485da0715fc2f7fbaaf, type: 3}
     position: {x: 17, y: -10.3}
     scale: {x: 1, y: 1}
-    text: "\u6230\u9B25\u958B\u59CB\u6642\uFF0C\u6703\u63ED\u793A\u5C0D\u624B\u884C\u52D5\u683C\u6240\u6709\u89D2\u8272\u7531\u5DE6\u800C\u53F3\u4F9D\u5E8F\u57F7\u884C\u884C\u52D5"
+    text: When the battle start, all character will perform actions from left to
+      right
     next: 0
   - gmo: {fileID: 1924768297971452, guid: a3e78d42517ea48eea478f0d496a70c4, type: 3}
     position: {x: 17, y: -10.3}
     scale: {x: 1, y: 1}
-    text: "\u63A5\u8457\uFF0C\u8ACB\u7528\u81EA\u5DF1\u7684\u529B\u91CF\uFF0C\u64CA\u6557\u53F2\u840A\u8FEA\u6069\u5427\uFF01"
+    text: Please defeat Sladean
     next: 0
   now_tutorial_order: 0
 --- !u!1 &1422958778
@@ -8864,7 +8865,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 10
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &2082629156
 Canvas:
   m_ObjectHideFlags: 0

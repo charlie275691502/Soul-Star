@@ -1,54 +1,54 @@
 
 Add
-音菲瑟波
+Invisible
 y
 Allies_004/normal
 15 -1.5
 #
 Talk
-音菲瑟波
+Invisible
 ...
 #
 Add
-畢查爾
+Bichaer
 y
 Allies_001/normal
 -15 -1.5
 #
 Talk
-畢查爾
-為甚麼要突然攻擊我？
+Bichaer
+Why did you suddenly attack me?
 #
 Talk
-音菲瑟波
-報復。
+Invisible
+Revenge.
 #
 Aside
-音菲瑟波面無表情地說道。
+Invisible says expressionlessly.
 #
 Talk
-畢查爾
-報復？難道...
+Bichaer
+Revenge? Could it be...
 #
 Aside
-畢查爾看向音菲瑟波尚未乾透且破了一個小洞的衣角，
+Bichaer looks at the corner of Invisible's clothes, still wet and with a small hole.
 #
 Talk
-畢查爾
-剛剛水桶的水噴到你了？
+Bichaer
+Did the water from the bucket just splash onto you?
 #
 Talk
-音菲瑟波
-沒錯。
+Invisible
+Yes.
 #
 Talk
-音菲瑟波
-難得有人被我惡作劇5次就發現我的存在，交個朋友吧，一直被人無視的感覺好差。
+Invisible
+Rare to find someone who notices my existence after being pranked five times. Let's be friends, feeling constantly ignored is not a good feeling.
 #
 Talk
-畢查爾
+Bichaer
 ... ...
 #
 Talk
-畢查爾
-5次?
+Bichaer
+Five times?

@@ -1,12 +1,12 @@
 
 Add
-易格爾
+Yigar
 y
 Allies_003/normal
 -15 -1.5
 #
 Add
-畢查爾
+Bichaer
 y
 Allies_001/normal
 0 -1.5
@@ -14,96 +14,96 @@ Allies_001/normal
 Shake
 #
 Talk
-畢查爾
-怎麼會？武器動不了了！
+Bichaer
+What's happening? The weapon won't move!
 #
 Move
-畢查爾
+Bichaer
 -10 -1.5
 0.3
 #
 Aside
-反應到武器故障的畢查爾向後一跳閃開了史萊迪恩的攻擊，然後立刻向裁判棄權。
+Reacting to the weapon malfunction, Bichaer jumps back to dodge Sladeen's attack, then immediately forfeits to the referee.
 #
 Aside
-但是裁判卻假裝沒看到，任由史萊迪恩繼續攻擊，而史萊迪恩也趁機揮起機裝長劍斬向易格爾。
+But the referee pretends not to see and allows Sladeen to continue the attack, while Sladeen takes the opportunity to swing the mech sword towards Yigar.
 #
 Talk
-畢查爾
-你們居然連機裝對戰的裁判都有辦法收買？！
+Bichaer
+You even managed to bribe the referee of a mech combat match?!
 #
 Talk
-畢查爾
-可惡！你們已經奪走易家的所有產業了，現在還想趕盡殺絕嗎？
+Bichaer
+Damn it! You've already taken away all of the Yi family's assets, and now you want to wipe us out completely?
 #
 Add
-史萊迪恩
+Sladeen
 y
 Enemys_002/normal
 10 -3
 #
 Talk
-史萊迪恩
-這小子在地鼠組織裡很有人脈，如果讓他成長起來可是會對昌家造成大威脅的。
+Sladeen
+This kid has a lot of connections in the Mole Organization. If he grows up, he'll pose a major threat to the Chang family.
 #
 Shake
 #
 Talk
-史萊迪恩
-所以就讓他穿越到諾爾地區去，然後永遠別回來吧！
+Sladeen
+So let's send him off to the Norl region and never let him come back!
 #
 Add
-史旺
+Swang
 y
 Enemys_001/normal
 20 -3
 #
 Talk
-史旺
-不過依照易格爾現在的力量，大概在穿越的過程中靈魂就會消耗殆盡了吧哈哈哈哈哈哈！
+Swang
+But with Yigar's current strength, his soul will probably be exhausted during the crossing process hahaha!
 #
 Aside
-眼看著易格爾的閃避越來越吃力，且手臂已經中了兩三刀，
+Seeing Yigar's evasion becoming increasingly difficult and his arm already slashed two or three times,
 #
 Aside
-畢查爾突然衝上前將易格爾往後丟出了數公尺遠，同時被史萊迪恩從背後刺穿了腹部。
+Bichaer suddenly rushes forward, throwing Yigar several meters back, and at the same time, gets stabbed in the abdomen from behind by Sladeen.
 #
 Talk
-畢查爾
-易格爾快跑…去第三基地…咳咳…躲好。
+Bichaer
+Yigar, run... to the third base... cough... hide.
 #
 Talk
-易格爾
-大哥~
+Yigar
+Big brother~
 #
 Move
-易格爾
+Yigar
 -40 -1.5
 1
 #
 Aside
-易格爾邊哭著邊往後逃去。
+Yigar runs backward crying.
 #
 Talk
-史萊迪恩
-可惡！都是因為你這傢伙，害易格爾逃走了！
+Sladeen
+Damn it! Because of you, Yigar escaped!
 #
 Talk
-史旺
-那就把你抓回去交差，拷問到你說出一切為…
+Swang
+Then we'll capture you and interrogate you until you spill everything...
 #
 Shake
 #
 Aside
-畢查爾露出了挑釁的笑容，忽地用力抓住刺穿腹部的劍往上一拉。
+Bichaer flashes a provocative smile, then suddenly grabs the sword piercing his abdomen and pulls it upward with force.
 #
 Talk
-史萊迪恩
-可惡！這下麻煩大了！
+Sladeen
+Damn it! This is trouble!
 #
 Talk
-史旺
-算了快走吧，還是查出第三基地的位置要緊。
+Swang
+Forget it, let's go, finding the location of the third base is more important.
 #
 Aside
-離開競技場的兩人並沒有發現，除了屍體之外，畢查爾裝備的機裝長劍也化為光點逐漸消失中。
+The two leaving the arena fail to notice that, apart from the bodies, Bichaer's mech sword also turns into dots of light and gradually disappears.

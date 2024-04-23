@@ -1,32 +1,32 @@
 
 Add
-畢查爾
+Bichaer
 y
 Allies_001/normal
 -10 -1.5
 #
 Talk
-畢查爾
-這片田地太乾燥了，一點都不適合香菇生存，
+Bichaer
+This field is too dry, not suitable for mushroom survival at all,
 #
 Talk
-畢查爾
-拜此所賜輻射香菇們的戰力都不高。
+Bichaer
+Thanks to this, the combat capabilities of the radiated mushrooms are not high.
 #
 Talk
-畢查爾
-不過為什麼香菇王會想佔據這裡呢？
+Bichaer
+But why would the Mushroom King want to occupy this place?
 #
 Talk
-畢查爾
-難道是因為... ...？
+Bichaer
+Could it be because... ...?
 #
 Aside
-畢查爾邊想著邊走到了田地的中央，
+Bichaer walks to the center of the field while pondering,
 #
 Aside
-站在面前的是比一般輻射香菇高大了三倍，卻沒有蕈傘的香菇王。
+Standing in front of him is the Mushroom King, three times taller than the usual radiated mushrooms but without a mushroom cap.
 #
 Talk
-畢查爾
+Bichaer
 ... ...

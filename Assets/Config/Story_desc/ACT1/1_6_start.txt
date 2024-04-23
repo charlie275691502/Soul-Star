@@ -1,41 +1,41 @@
 
 Aside
-兩周後，充分休息過的畢查爾決定回到賽拉地區幫助或許還在被追殺的易格爾。
+Two weeks later, fully rested, Bichaer decides to return to the Sela region to help Yigar, who may still be hunted.
 #
 Add
-畢查爾
+Bichaer
 y
 Allies_001/normal
 -15 -1.5
 #
 Add
-晴
+Qing
 y
 Allies_002/normal
 15 -1.5
 #
 Talk
-晴
-等等，離開前把這些也都帶上吧，
+Qing
+Wait, before you leave, take these too,
 #
 Aside
-晴把大量的零件藥品甚至是紙團垃圾塞滿畢查爾的身上。
+Qing stuffs Bichaer with a large number of parts, medicines, and even bundles of trash.
 #
 Talk
-晴
-那麼，這次你能帶走多少東西呢？
+Qing
+So, how much can you take this time?
 #
 Talk
-畢查爾
-... ...。
+Bichaer
+... ...
 #
 Talk
-晴
-或許可以全部帶走呢！
+Qing
+Maybe you can take everything this time!
 #
 Talk
-晴
-別馬上又死了喔，帶。著。武。器的穿越者。
+Qing
+Don't go dying again immediately, time-traveler with weapons.
 #
 Aside
-畢查爾把劍對著自己身上一揮，而後倒在地上逐漸光點... ...。
+Bichaer waves his sword over himself, then collapses on the ground, gradually turning into light particles... ...

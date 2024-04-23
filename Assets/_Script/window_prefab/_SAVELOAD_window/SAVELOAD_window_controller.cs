@@ -31,7 +31,7 @@ public class SAVELOAD_window_controller : MonoBehaviour {
 		}
 
 		data_progress_struct [order].new_game_box(false, green_color, red_color);
-		if  (datas [order].main_progress == 1)data_progress_struct [order].main_progress_text.text = "新手教學";
+		if  (datas [order].main_progress == 1)data_progress_struct [order].main_progress_text.text = "Tutorial";
 		else data_progress_struct [order].main_progress_text.text = datas [order].main_progress / 100 + "-" + datas [order].main_progress % 100;
 	}
 

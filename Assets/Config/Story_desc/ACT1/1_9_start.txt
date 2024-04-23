@@ -2,27 +2,27 @@
 Shake
 #
 Aside
-畢查爾從背後突然遭到了重擊。
+Bichaer suddenly receives a heavy blow from behind.
 #
 Add
-畢查爾
+Bichaer
 y
 Allies_001/normal
 -15 -1.5
 #
 Add
-？？？
+???
 y
 Allies_004/normal
 15 -1.5
 #
 Talk
-畢查爾
-抓到你了！
+Bichaer
+Got you!
 #
 Aside
-畢查爾抓住了攻擊者的右手，只見身後站著的是個拿著長笛的藍髮男子。
+Bichaer grabs the attacker's right hand, revealing a blue-haired man holding a flute standing behind him.
 #
 Talk
-？？？
-。。。
+???
+...

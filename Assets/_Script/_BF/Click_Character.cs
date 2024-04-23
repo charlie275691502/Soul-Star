@@ -136,7 +136,7 @@ public class Character{
 		gameController.StartCoroutine(add_hp(-dmg));
 	}
 
-	public void deal_嗡嗡揮舞_dmg(Character attacker){
+	public void deal_Dance_dmg(Character attacker){
 		int dmg = (int)Mathf.Min((float)(attacker.psy_atk + psy_atk- TEC - psy_def) * (float)max_hp, 0.17f * (float)max_hp);
 		gameController.StartCoroutine(add_hp(-dmg));
 	}

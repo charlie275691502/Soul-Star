@@ -1,80 +1,80 @@
 
 Add
-畢查爾
+Bichaer
 n
 Allies_001/normal
 -15 -1.5
 #
 Talk
-畢查爾
-好痛…嗚…這裡是…
+Bichaer
+It hurts... *sob*... Where am I...
 #
 Aside
-畢查爾環顧四周從未實際見過的植物。
+Bichaer looks around at the unfamiliar vegetation he has never seen before.
 #
 Talk
-畢查爾
-是…諾爾嗎？
+Bichaer
+Is this... Norl?
 #
 Talk
-畢查爾
-身上的戒指和乾糧都不見了，可是為什麼…
+Bichaer
+My ring and rations are gone, but why...
 #
 Aside
-不知為何，本應留在賽拉地區的赤紅之蟒和衣服仍然裝備在畢查爾的身上。
+For some reason, Crimson Python and clothes that should have stayed in the Sela region are still equipped on Bichaer.
 #
 Talk
-畢查爾
-算了，有武器在身也比較好辦事，還是先到城裡去吧。
-#
-Aside
-... ...
+Bichaer
+Never mind, it's better to have a weapon on hand. I should head to the city first.
 #
 Aside
 ... ...
 #
-Talk
-？？？
-阿紅，快跑~
+Aside
+... ...
 #
 Talk
-畢查爾
-阿紅是誰啊？這裡不是只有我一個人嗎？
+???
+Ahong, run quickly~
+#
+Talk
+Bichaer
+Who's Ahong? Am I not the only one here?
 #
 Add
-？？？
+???
 n
 Allies_002/normal
 10 -1.5
 #
 Move
-？？？
+???
 -8 -1.5
 1
 #
 Add
-衛兵
+Guard
 n
 Enemys_006/normal
 22 -1.5
 #
 Move
-衛兵
+Guard
 15 -1.5
 1
 #
 Talk
-衛兵
-竟然被你看到，那就只好連你一起抓回去了！
+Guard
+You've seen us, so we'll have to take you back too!
 #
 Shake
 #
 Talk
-畢查爾
-蛤？
+Bichaer
+Huh?
 #
 Shake
 #
 Talk
-畢查爾
-糟糕！被包圍了！
+Bichaer
+Oh no! I'm surrounded!

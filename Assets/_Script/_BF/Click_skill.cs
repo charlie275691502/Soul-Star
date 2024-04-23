@@ -34,7 +34,7 @@ public enum Skill_Type{
 public enum Move_Type{
 	pure_ahead,
 	pure_oblique,
-	快速補位,
+	Refill,
 	緩動
 }
 
@@ -44,7 +44,7 @@ public enum Machine_Type{
 	move_success_damage,
 	random_damage,
 	refill,
-	嗡嗡揮舞,
+	Dance,
 	拍擊
 }
 
@@ -380,7 +380,7 @@ public class Click_skill : MonoBehaviour {
 		if (A_gmo == null || B_gmo == null)return true;
 		Click_skill A = A_gmo.GetComponent<Click_skill> ();
 		Click_skill B = B_gmo.GetComponent<Click_skill> ();
-		if(A.skill_detail.dmg_rate > 0 && B.GetComponent<Click_skill>().Name == "衝刺")return false;
+		if(A.skill_detail.dmg_rate > 0 && B.GetComponent<Click_skill>().Name == "Dash")return false;
 		return true;
 	}
 
@@ -488,7 +488,7 @@ public class Click_skill : MonoBehaviour {
 		}
 	}
 
-	Vector3 快速補位_move_adjust(Character character, Vector3 vec){
+	Vector3 Refill_move_adjust(Character character, Vector3 vec){
 		Vector3 after_pos = character.loc + vec;
 		if (after_pos.x > 6 || after_pos.x < 0 || after_pos.y > 4 || after_pos.y < 0 || (the_character_on_block (after_pos) != null && the_character_on_block (after_pos).GetComponent<Click_Character>().character.character_camp != character.character_camp))return new Vector3();
 		character.loc = after_pos;
@@ -589,7 +589,7 @@ public class Click_skill : MonoBehaviour {
 		}
 	}
 
-	IEnumerator move_快速補位(){
+	IEnumerator move_Refill(){
 		GameObject mover = find_target (transform.position).gmo;
 		for (int i = 0; i < ahead_distance; i++) {
 			Vector3 _from = mover.transform.position;
@@ -598,7 +598,7 @@ public class Click_skill : MonoBehaviour {
 				the_character_on_block (mover.GetComponent<Click_Character>().character.loc + decode_dir ()).transform.position = mover.transform.position;
 			}
 
-			Vector3 _next = _from + 快速補位_move_adjust(mover.GetComponent<Click_Character>().character, decode_dir ());
+			Vector3 _next = _from + Refill_move_adjust(mover.GetComponent<Click_Character>().character, decode_dir ());
 			if (_from == _next) {
 				for (float j = 0; j < skill_detail.show_time / ahead_distance; j += Time.deltaTime) {
 					mover.transform.position = _from + decode_dir () * gameController.acts.bounce_time * Mathf.Sin(j / (skill_detail.show_time / ahead_distance) * Mathf.PI);
@@ -754,7 +754,7 @@ public class Click_skill : MonoBehaviour {
 
 	}
 
-	IEnumerator machine_嗡嗡揮舞(){
+	IEnumerator machine_Dance(){
 		GameObject attacker = find_target (transform.position).gmo;
 		Vector3[] aimed_locations = turn_attack_range(skill_detail.dir);
 
@@ -763,7 +763,7 @@ public class Click_skill : MonoBehaviour {
 		foreach (Vector3 aimed_location in aimed_locations) {
 			Vector3 loc = attacker.GetComponent<Click_Character> ().character.loc + aimed_location;
 			if (!in_attack_range (attacker, loc))continue;
-			if(the_character_on_block (loc) != null)the_character_on_block (loc).GetComponent<Click_Character> ().character.deal_嗡嗡揮舞_dmg (attacker.GetComponent<Click_Character>().character);
+			if(the_character_on_block (loc) != null)the_character_on_block (loc).GetComponent<Click_Character> ().character.deal_Dance_dmg (attacker.GetComponent<Click_Character>().character);
 			if (!skill_detail.only_slash_once) Instantiate (slash, attacker.transform.position + aimed_location * gameController.acts.board_blocks_distance, Quaternion.identity);
 			if(skill_detail.attack_delay > 0 )yield return new WaitForSeconds(skill_detail.attack_delay);
 		}

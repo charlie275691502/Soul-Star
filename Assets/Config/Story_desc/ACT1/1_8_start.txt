@@ -1,34 +1,34 @@
 
 Aside
-畢查爾在路邊朝著鐵板測試新買的子彈。
+Bichaer tests the new bullets he bought by the roadside against an iron plate.
 #
 Shake
 #
 Add
-畢查爾
+Bichaer
 y
 Allies_001/normal
 -10 -1.5
 #
 Aside
-「碰！」子彈只打入了鐵板1公分深。
+"Pong!" The bullet only penetrates the iron plate by 1 centimeter.
 #
 Talk
-畢查爾
-怎麼可能，攻擊力這麼弱
+Bichaer
+How is this possible? Such weak firepower.
 #
 Aside
-畢查爾邊滴咕著邊往鐵板又開了兩槍。
+Bichaer mutters as he fires two more shots at the iron plate.
 #
 Shake
 #
 Aside
-「碰碰」兩發子彈都貫穿了鐵板打入土裡。
+"Pong pong" Both bullets pierce through the iron plate and embed into the ground.
 #
 Talk
-畢查爾
-嗯...難道是膛線故障了？
+Bichaer
+Hmm... Could it be a rifling issue?
 #
 Talk
-畢查爾
-看來回去之後要好好把赤紅之蟒檢查一遍了。
+Bichaer
+Looks like I'll need to thoroughly inspect Crimson Python when I get back.

@@ -65,7 +65,7 @@ public class AI : MonoBehaviour {
 		Vector3 now_loc = enemy.loc;
 		for (int i = 0; i < 5; i++) {
 			if (priority_dir[i] == null || skills[i] == null) continue;
-//			if (skills [i].name == "影穿") {
+//			if (skills [i].name == "Shadow Attack") {
 //				dir [i] = priority_dir [i].dir [0];
 //				//我不想管這段了ＱＱ
 //				continue;
@@ -78,7 +78,7 @@ public class AI : MonoBehaviour {
 				//move
 				if (skill.ahead_distance > 0) {
 					Vector3 des_loc = now_loc + skill.ahead_distance * decode_dir (direction);
-					if (skill.Name == "突刺") {
+					if (skill.Name == "Thrust") {
 						Vector3 second_loc = des_loc + decode_dir (direction);
 						if (!skill.is_obstacle(des_loc) /* && no_enemys(des_loc, i, enemy.order) */ && !skill.is_obstacle(second_loc) /* && no_enemys(second_loc, i, enemy.order) */ ) {
 							now_loc = des_loc;

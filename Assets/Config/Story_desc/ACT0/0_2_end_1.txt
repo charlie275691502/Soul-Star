@@ -1,86 +1,86 @@
 
 Add
-畢查爾
+Bichaer
 y
 Allies_001/normal
 -15 -1.5
 #
 Add
-晴
+Qing
 y
 Allies_002/normal
 15 -1.5
 #
 Talk
-晴
-抱歉把你捲入戰鬥，我叫晴。
+Qing
+Sorry for dragging you into the battle. I'm Qing.
 #
 Talk
-畢查爾
+Bichaer
 ...
 #
 Talk
-畢查爾
+Bichaer
 ...
 #
 Talk
-畢查爾
+Bichaer
 ...
 #
 Talk
-畢查爾
-畢查爾。
+Bichaer
+Bichaer.
 #
 Talk
-晴
-看你身上的裝束...你是從賽拉來的對吧。
+Qing
+Judging by your attire... you're from Sela, right?
 #
 Talk
-晴
-我還是第一次見到帶著武器的穿越者呢！
+Qing
+It's my first time seeing a time traveler with weapons!
 #
 Talk
-晴
-留下來為我工作吧，畢查爾。武器的事我會替你保密的。
+Qing
+Stay and work for me, Bichaer. I'll keep the weapon matter confidential for you.
 #
 Talk
-畢查爾
-(嘖)
+Bichaer
+(Tch)
 #
 Talk
-畢查爾
-不必了，我還要回去賽拉救人。
+Bichaer
+No need, I have to go back to Sela to save someone.
 #
 Talk
-晴
-(真好奇，什麼人能讓畢查爾重視到要為了他再死一次啊？)
+Qing
+(I'm really curious, who could make Bichaer value them enough to die for him again?)
 #
 Move
-畢查爾
+Bichaer
 -20 -1.5
 0.5
 #
 Aside
-畢查爾轉身向後走去。
+Bichaer turns and walks away.
 #
 Shake
 #
 Talk
-晴
-喂！等等！
+Qing
+Hey! Wait!
 #
 Talk
-晴
-好吧，那就兩週。
+Qing
+Alright, then how about two weeks?
 #
 Talk
-畢查爾
-什麼？
+Bichaer
+What?
 #
 Talk
-晴
-重新介紹一次，我是"晴"家族的領主。
+Qing
+Let me introduce myself again, I'm the head of the Qing family.
 #
 Talk
-晴
-不想在穿越的過程中魂飛魄散的話就留下來休息兩週吧，我會為你準備好房間的。
+Qing
+If you don't want to perish during time travel, then stay and rest for two weeks. I'll prepare a room for you.

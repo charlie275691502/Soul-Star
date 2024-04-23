@@ -5,7 +5,7 @@ public class Enemys_011 : AI {
 	override public void specific_AI(){
 		//在2~5格隨機前進，方向先不管。
 		int move_position = get_random_position(1, 4);
-		set_skill ("緩動", move_position);
+		set_skill ("Slow Move", move_position);
 
 		//接下來重第一個行動開始填空格。移動前後分別判斷距離，遠：面向敵人方向；近：20%機率打側向。
 		for (int i = 0; i < 5; i++) {

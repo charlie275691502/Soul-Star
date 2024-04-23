@@ -50,7 +50,7 @@ public class Click_skill_editor : Editor {
 				click_skill.skill_detail.refill_mp = EditorGUILayout.IntField ("     Refill_mp", click_skill.skill_detail.refill_mp);
 				click_skill.skill_detail.refill_ep = EditorGUILayout.IntField ("     Refill_ep", click_skill.skill_detail.refill_ep);
 				break;
-			case Machine_Type.嗡嗡揮舞:
+			case Machine_Type.Dance:
 				click_skill.skill_detail.attack_delay = EditorGUILayout.FloatField ("     Attack_delay", click_skill.skill_detail.attack_delay);
 				break;
 			case Machine_Type.拍擊:

@@ -1,27 +1,27 @@
 
 Aside
-...同時，另一位置...
+...Meanwhile, at another location...
 #
 Talk
-觀察者
+Observer
 ...
 #
 Talk
-觀察者
-攝魂珠似乎有動靜了。
+Observer
+It seems the Soul Capturer is showing signs of activity.
 #
 Talk
-實行者
-要讓他強制覺醒嗎？
+Executor
+Shall we forcibly awaken him?
 #
 Talk
-觀察者
-不，再等兩周吧。
+Observer
+No, let's wait another two weeks.
 #
 Talk
-實行者
-了解。
+Executor
+Understood.
 #
 Talk
-觀察者
-你先到賽拉準備下一步行動吧。
+Observer
+You go to Sela and prepare for the next step.

@@ -1,63 +1,63 @@
 
 Aside
-在去年曾經獲得機裝對戰單人組亞軍的畢查爾，帶著剛學會使用機裝不久的易格爾，參加雙人組的機裝對戰。
+Bichaer, who was the runner-up in last year's solo Mech Combat Tournament, teams up with Yigar, who has just recently learned to use a mech, to participate in the doubles Mech Combat.
 #
 Talk
-裁判
-裝備檢查結束，請雙方取回機裝並準備戰鬥。
+Referee
+Equipment check complete. Both sides, retrieve your mechs and prepare for battle.
 #
 Add
-易格爾
+Yigar
 n
 Allies_003/normal
 15 -1.5
 #
 Talk
-易格爾
-大哥…
+Yigar
+Big brother...
 #
 Talk
-易格爾
-那個…
+Yigar
+Um...
 #
 Talk
-易格爾
-嗯…
+Yigar
+Well...
 #
 Add
-畢查爾
+Bichaer
 n
 Allies_001/normal
 -15 -1.5
 #
 Talk
-畢查爾
-你不用緊張…依你的槍法，就算我站著不動也有機會贏的。
+Bichaer
+Don't worry... With your marksmanship, you still have a chance to win even if I stand still.
 #
 Talk
-畢查爾
-只是，第一場戰鬥就遇到史萊迪恩和史萊迪恩還真是倒楣。
+Bichaer
+But it's just unlucky to encounter Sladeen and Swang in the first match.
 #
 Talk
-易格爾
-隼卡彈了，沒辦法使用。
+Yigar
+The Falcon jammed, can't use it.
 #
 Shake
 #
 Talk
-畢查爾
-什麼？
+Bichaer
+What?
 #
 Talk
-畢查爾
-運氣真差。
+Bichaer
+Such bad luck.
 #
 Talk
-畢查爾
-算了，這場戰鬥就交給我和赤紅之蟒吧。
+Bichaer
+Never mind, I'll take this battle with Crimson Python.
 #
 Shake
 #
 Talk
-畢查爾
-不過是昌氏家族的走狗而已，我一個人也可以解決！
+Bichaer
+Just a lapdog of the Chang clan, I can handle it myself!

@@ -1,31 +1,31 @@
 
 Aside
-在晴準備好兩周的任務前，剛來到諾爾的畢查爾決定到處逛逛並補充彈藥。
+Before Qing prepares for the two-week mission, Bichaer, who has just arrived in Norr, decides to wander around and replenish ammunition.
 #
 Add
-畢查爾
+Bichaer
 y
 Allies_001/normal
 -7 -1.5
 #
 Talk
-畢查爾
-這件大衣的樣式...很適合收納彈匣和工具盒啊。
+Bichaer
+The style of this coat... it's perfect for storing magazines and toolboxes.
 #
 Aside
-畢查爾對著某間攤販的老闆說到。
+Bichaer remarks to the vendor at a certain stall.
 #
 Talk
-畢查爾
-老伯你也是從賽拉來的嗎？
+Bichaer
+Are you from Serra too, sir?
 #
 Talk
-老闆
-哀，那都是過去的事了。
+Vendor
+Ah, those are all in the past.
 #
 Aside
-突然兩個流氓衝了過來把攤販弄倒。
+Suddenly, two thugs rush over and knock down the vendor.
 #
 Talk
-流氓
-收保護費啦！
+Thug
+Pay up for protection!

@@ -1,86 +1,86 @@
 
 Add
-克依
+Kei
 y
 Enemys_010
 15 -4.5
 #
 Talk
-克依
-約瑟芬沒有再穿越了...，看來這一次我們成功拖延獻祭的時間了。
+Kei
+Josephine didn't time-travel again... Looks like we successfully delayed the sacrifice this time.
 #
 Talk
-克依
-約瑟芬曾是晴家族的考古學家，為了研究你身上帶著的攝魂珠，幾乎零戰力的他居然敢闖進靈族領地…
+Kei
+Josephine used to be a Qing family archaeologist. He had almost zero combat power but dared to venture into the Spirit tribe's territory to study the Soul Capturer you carry...
 #
 Talk
-克依
-這珠子是神族留下來的東西，據說神族非常想把攝魂珠搶回手中。
+Kei
+This gem is something left behind by the divine tribe. It is said that the divine tribe is eager to reclaim the Soul Capturer.
 #
 Talk
-克依
-所以，你也要小心別死在神族手上了。
+Kei
+So, be careful not to die at the hands of the divine tribe.
 #
 Add
-畢查爾
+Bichaer
 y
 Allies_001/normal
 -7 -1.5
 #
 Talk
-畢查爾
+Bichaer
 ...
 #
 Add
-晴
+Qing
 y
 Allies_002/normal
 -13 -1.5
 #
 Talk
-晴
+Qing
 ...
 #
 Talk
-克依
-不過，既然是朋友的子女，那在離開前我再幫你們一個小小的忙好了。
+Kei
+However, since it's the child of a friend, I'll do you a small favor before leaving.
 #
 Aside
-克依邊說著邊從背上拔出一根刺，
+Kei pulls out a thorn from his back as he speaks,
 #
 Talk
-克依
-你們有聽過石中劍的傳說嗎？
+Kei
+Have you heard of the legend of the Sword in the Stone?
 #
 Shake
 #
 Aside
-克依將手中的刺丟向一旁的岩石，只見長刺如同戳在豆腐上一般沒至根部。
+Kei throws the thorn into a nearby rock, and the long thorn sinks into the rock as if it were tofu.
 #
 Talk
-？？？
-嘎啊啊啊！！
+???
+Aaargh!!
 #
 Aside
-石頭怪叫了一聲並站了起來。
+The stone monster groans and stands up.
 #
 Talk
-克依
-接下來就交給你們自己處理吧！
+Kei
+I'll leave the rest to you to handle yourselves!
 #
 Move
-克依
+Kei
 40 -4.5
 1.5
 #
 Aside
-克依笑著離開了。
+Kei leaves with a smile.
 #
 Move
-克依
+Kei
 28 -4.5
 0.3
 #
 Talk
-克依
-還有，別種小麥改種馬鈴薯吧，除非你們希望看到更多香菇衝進田裡。
+Kei
+Oh, and consider planting potatoes instead of wheat unless you want to see more mushrooms invading the fields.

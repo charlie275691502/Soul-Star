@@ -1,27 +1,27 @@
 
 Aside
-畢查爾幫忙收拾著翻倒的攤販，忽然在雜物中看到了易家的徽章。
+Bichaer helps tidy up the overturned vendor stall and suddenly spots the emblem of the Yi family among the scattered items.
 #
 Add
-畢查爾
+Bichaer
 y
 Allies_001/normal
 -7 -1.5
 #
 Talk
-畢查爾
-這是...易家的。
+Bichaer
+This is... from the Yi family.
 #
 Talk
-老闆
-不，你看錯了。
+Shopkeeper
+No, you're mistaken.
 #
 Aside
-老闆把急著把徽章搶了回去。
+The shopkeeper hastily snatches the emblem back.
 #
 Talk
-畢查爾
-(難道昌家在諾爾也有很大的影響力嗎？)
+Bichaer
+(Is the Chang family influential in Norr as well?)
 #
 Aside
-畢查爾心想著邊向老闆解釋了自己和易格爾的關係。
+Bichaer wonders while explaining his relationship with Yigar to the shopkeeper.

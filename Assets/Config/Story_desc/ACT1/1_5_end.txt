@@ -1,47 +1,47 @@
 
 Add
-畢查爾
+Bichaer
 y
 Allies_001/normal
 10 -1.5
 #
 Talk
-畢查爾
-克依…，感覺他還有很多過去的事情沒說呢。
+Bichaer
+Kei... I feel like he has a lot of things from the past left unsaid.
 #
 Aside
-畢查爾喃喃說道。
+Bichaer murmurs.
 #
 Add
-晴
+Qing
 y
 Allies_002/normal
 -13 -1.5
 #
 Talk
-晴
-原來你父親以前就是晴家的手下阿，或許能在你穿越時馬上遇到你是上天安排好的呢!
+Qing
+So your father used to be under the Qing family, maybe it was arranged by the heavens for us to meet when you time-traveled!
 #
 Aside
-晴笑著說道。
+Qing says with a smile.
 #
 Talk
-晴
-所以，要叫聲主人來讓我聽聽嗎？
+Qing
+So, do you want to call me "master" to make it official?
 #
 Move
-畢查爾
+Bichaer
 15 -1.5
 0.5
 #
 Talk
-畢查爾
-想都別想。
+Bichaer
+Don't even think about it.
 #
 Talk
-畢查爾
+Bichaer
 ... ...
 #
 Talk
-畢查爾
-(攝魂珠...，或許父親有在日記裡留下紀錄。回到賽拉後跟易格爾一起到老屋裡找找看吧!)
+Bichaer
+(The Soul Capturer... Maybe my father left a record in the diary. When I get back to Sela, I'll search the old house with Yigar!)

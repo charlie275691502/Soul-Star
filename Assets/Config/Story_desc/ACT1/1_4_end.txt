@@ -2,70 +2,70 @@
 Shake
 #
 Aside
-克依輕鬆打敗了畢查爾和晴等人…
+Kei easily defeats Bichaer, Qing, and others...
 #
 Add
-克依
+Kei
 y
 Enemys_010
 10 -4.5
 #
 Move
-克依
+Kei
 15 -4.5
 1
 #
 Talk
-克依
-停手吧，我可不是為了殺人才出現在這裏的。
+Kei
+Stop, I didn't come here to kill.
 #
 Add
-畢查爾
+Bichaer
 y
 Allies_001/normal
 -10 -1.5
 #
 Talk
-畢查爾
-呼...
+Bichaer
+Phew...
 #
 Aside
-畢查爾鬆了一口氣並把劍收回了劍鞘內。
+Bichaer breathes a sigh of relief and sheathes his sword.
 #
 Talk
-克依
-塞拉的機械劍…
+Kei
+The mechanical sword from Sela...
 #
 Move
-克依
+Kei
 5 -4.5
 1
 #
 Aside
-克依忽然朝畢查爾欺近，
+Kei suddenly approaches Bichaer,
 #
 Shake
 #
 Talk
-克依
-你是怎麼在諾爾製作出來的？
+Kei
+How did you make it here in Norl?
 #
 Talk
-畢查爾
-這是…
+Bichaer
+This is...
 #
 Talk
-克依
-攝魂珠在你身上對吧，
+Kei
+The Soul Capturer is on you, right?
 #
 Talk
-克依
-你跟約瑟芬是什麼關係？
+Kei
+What's your relationship with Josephine?
 #
 Talk
-畢查爾
-你認識我父親？
+Bichaer
+You know my father?
 #
 Talk
-畢查爾
-可是父親他直到去世前都沒有穿越阿？
+Bichaer
+But my father never time-traveled until he passed away?

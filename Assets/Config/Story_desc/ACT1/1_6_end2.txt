@@ -1,20 +1,20 @@
 
 Aside
-...同時，另一位置...
+...Meanwhile, at another location...
 #
 Talk
-觀察者
-第七代祭品已經重新覺醒，位置是...。
+Observer
+The seventh sacrifice has been reawakened, the location is...
 #
 Shake
 #
 Talk
-觀察者
-無法追蹤位置。可惡！靈族的那些傢伙竟然又插手了。
+Observer
+Unable to track location. Damn it! Those damn Spirit tribe guys intervened again.
 #
 Aside
-觀察者憤怒的切斷與遠處的通訊，
+The observer angrily cuts off communication with the distant location,
 #
 Talk
-觀察者
-看來是時候更改計畫了。
+Observer
+It seems it's time to change the plan.
