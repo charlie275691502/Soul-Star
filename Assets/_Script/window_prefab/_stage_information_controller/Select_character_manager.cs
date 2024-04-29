@@ -82,7 +82,11 @@ public class Select_character_manager : MonoBehaviour {
 	}
 
 	public int[] list(){
-		int auto_fill_amount = stage_window_controller.stage_imformation_manager.dataController.stageInformation.team_limit_number - selecteds.Count(isSelect => isSelect);
+		int isSelectCount = 0;
+		foreach(var selected in selecteds)
+			if (selected)
+				isSelectCount ++;
+		int auto_fill_amount = stage_window_controller.stage_imformation_manager.dataController.stageInformation.team_limit_number - isSelectCount;
 		int[] ret = new int[stage_window_controller.stage_imformation_manager.dataController.stageInformation.team_limit_number];
 		int ink = 0;
 		for(int i=0;i<characters.Length;i++){
